@@ -23,6 +23,7 @@
           <input 
             type="text" 
             id="surname" 
+            name="surname"
             autocomplete="off" 
             required
           >
@@ -32,6 +33,7 @@
           <input 
             type="text" 
             id="name" 
+            name="name"
             autocomplete="off" 
             required
           >
@@ -41,6 +43,7 @@
           <input 
           type="number" 
           id="age"
+          name="age"
           min="1"
           max="100"
           placeholder="12"
@@ -59,6 +62,7 @@
           <input 
             type="checkbox" 
             id="termOfAgreement" 
+            name="termOfAgreement"
             autocomplete="off" 
             required
           >
@@ -97,20 +101,24 @@
         <div class="form-field">
           Do you love cats?
 
-          <label for="yesLoveCats">Yes
+          <label for="yesLoveCats">
             <input 
               type="radio" 
               name="loveCats" 
+              value="yes"
               id="yesLoveCats"
             >
+            Yes            
           </label>
           
-          <label for="dontLoveCats">No
+          <label for="dontLoveCats">
             <input 
               type="radio" 
               name="loveCats" 
+              value="no"
               id="dontLoveCats"
             >
+            No
           </label>
         </div>
         
